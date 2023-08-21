@@ -4,9 +4,9 @@ import Container from "../Container"
 import Search from "./Search"
 import UserMenu from "./UserMenu"
 
-interface NavbarProps {
-  currentUser?: SafeUser | null;
-}
+// interface NavbarProps {
+//   currentUser?: SafeUser | null;
+// }
 
 
 const Navbar = () => {
@@ -31,7 +31,7 @@ const Navbar = () => {
         >
           <Logo />
           <Search />
-          <UserMenu currentUser={currentUser} />
+          <UserMenu/>
         </div>
       </Container>
       </div>
